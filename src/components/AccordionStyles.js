@@ -48,6 +48,25 @@ export const JobPost = styled.div`
 
 export const JobDescription = styled.div`
   flex: 0.9;
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  .item-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .item-2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+
+  .item-3 {
+    grid-column: 1/5;
+    grid-row: 2/3;
+  }
 `;
 
 export const JobButton = styled(Link)`

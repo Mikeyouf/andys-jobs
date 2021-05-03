@@ -28,6 +28,7 @@ const JobTitle = styled.h4`
   ${Title}
   text-transform: capitalize;
   font-weight: 500;
+  /* justify-self: flex-start; */
 `;
 
 const OpenPosts = styled.span`
@@ -53,8 +54,11 @@ const Accordion = ({ data }) =>
             {item.edges.map(({ node }) => (
               <JobPost key={node.frontmatter.title}>
                 <JobDescription>
-                  <JobTitle>{node.frontmatter.title}</JobTitle>
-                  <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
+                  {/* <div> */}
+                    <JobTitle className="item-1">{node.frontmatter.title}</JobTitle>
+                    <JobTitle className="item-2">{node.frontmatter.location}</JobTitle>
+                  {/* </div> */}
+                  <p dangerouslySetInnerHTML={{ __html: node.excerpt }} className="item-3"/>
                 </JobDescription>
                 <JobButton to={node.fields.slug}>Ouvrir</JobButton>
               </JobPost>
