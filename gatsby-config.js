@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: `Andy's Jobs`,
+        title: `Andy Jobs`,
         description: `Site de petites annonces de job pour les Esat et entreprises adaptées`,
         author: `Créagency'M`,
     },

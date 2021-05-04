@@ -11,7 +11,7 @@ const IndexPage = ({ data }) => {
   const posts = data.allMarkdownRemark.group;
   return (
     <Layout location={Logo}>
-      <SEO title="Andy's Jobs" keywords={[`esat`, `entreprise adaptée`, `emploi`, `handicap`]} />
+      <SEO title="Andy Jobs" keywords={[`esat`, `entreprise adaptée`, `emploi`, `handicap`]} />
       <Intro />
       {posts && <Listing data={posts} />}
     </Layout>
