@@ -32,7 +32,7 @@ const Layout = ({ location, children }) => (
     `}
     render={data => (
       <>
-        <Header logo={!!location} />
+        <Header logo={location} />
         {children}
         <Footer />
         <GlobalStyles />

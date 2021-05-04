@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 
 import NakedList from '../utils/NakedList';
-import Logo from '../images/logo.svg';
+import Logo from '../images/logo-andy-job.svg';
 import media from '../utils/media';
 
 const Nav = styled.nav `
@@ -35,7 +35,7 @@ const NavItems = styled.li`
 `;
 
 const StyledLogo = styled(Logo)`
-  height: 2rem;
+  height: 5rem;
 `;
 
 const Header = ({ logo }) => (

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import GraphicsEl from '../images/graphics.svg';
-import Logo from '../images/logo.svg';
+import Logo from '../images/logo-andy-job.svg';
 import media from '../utils/media';
 
 const Container = styled.div`

@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 import SEO from '../components/seo';
 import Intro from '../components/Intro';
 import Listing from '../components/Listing';
-import Logo from '../images/logo.svg';
+import Logo from '../images/logo-andy-job.svg';
 
 const IndexPage = ({ data }) => {
   const posts = data.allMarkdownRemark.group;
