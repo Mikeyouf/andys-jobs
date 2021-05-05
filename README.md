@@ -1,4 +1,4 @@
-# ANDY JOBS
+# ANDY JOB
 
 Site proposant des emplois dans le secteur du handicap.
 

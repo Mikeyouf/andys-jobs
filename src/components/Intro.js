@@ -1,15 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import GraphicsEl from '../images/graphics.svg';
-import Logo from '../images/logo-andy-job.svg';
+// import GraphicsEl from '../images/graphics.svg';
+// import Logo from '../images/logo-andy-job.svg';
 import media from '../utils/media';
 
 const Container = styled.div`
   display: flex;
   justify-content: space-between;
-  min-height: calc(80vh - 6rem);
-  align-items: flex-end;
+  min-height: calc(100vh - 6rem);
+  align-items: center;
   padding: 1rem 5rem;
   flex: 0.5;
   background-color: #ffffff;
@@ -21,6 +21,12 @@ const Container = styled.div`
 `;
 
 const Presentation = styled.div`
+  svg {
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    max-width: 630px;
+  }
   ${media.phone`
     display: none;
   `}
@@ -45,20 +51,25 @@ const ActionButton = styled.button`
   font-weight: 500;
   margin-top: 12rem;
 
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
   ${media.phone`
     margin-top: 4rem;
   `}
 `;
 
-const Intro = () => (
+const Intro = ({ ImageSvg, Logo, Texte, TxtBtn }) => (
   <Container>
     <Presentation>
-      <GraphicsEl />
+      {ImageSvg}
     </Presentation>
     <Content>
-      <Logo />
-      <p>Change le monde. Un pas après l'autre</p>
-      <ActionButton>Rejoignez-nous</ActionButton>
+      {Logo && Logo}
+      <p>{Texte}</p>
+      {TxtBtn && <ActionButton><a href="#job">{TxtBtn}</a></ActionButton>}
     </Content>
   </Container>
 );

@@ -10,12 +10,18 @@ const GlobalStyles = createGlobalStyle`
   :root {
     font-size: 10px;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
   body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     font-size: 1.6rem;
     color: rgba(0, 0, 0, 0.7);
     background-color: #fcfcfc;
+    scroll-behavior: smooth;
   }
 `;
 

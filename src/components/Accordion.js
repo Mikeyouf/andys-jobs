@@ -38,7 +38,7 @@ const OpenPosts = styled.span`
 
 const Accordion = ({ data }) =>
   console.log(data) || (
-    <AccordionComponent>
+    <AccordionComponent id="job">
       {data.map(item => (
         <AccordionItem key={item.fieldValue}>
           <AccordionItemTitle>
@@ -46,7 +46,7 @@ const Accordion = ({ data }) =>
               <span>{item.fieldValue}</span>
               <OpenPosts>
                 <span>{item.totalCount}&nbsp;</span>
-                <span>POSTE{item.totalCount > 1 && 'S'} LIBRE{item.totalCount > 1 && 'S'} &nbsp;></span>
+                <span>POSTE{item.totalCount > 1 && 'S'} LIBRE{item.totalCount > 1 && 'S'} &gt;</span>
               </OpenPosts>
             </DeptTitle>
           </AccordionItemTitle>
@@ -54,11 +54,10 @@ const Accordion = ({ data }) =>
             {item.edges.map(({ node }) => (
               <JobPost key={node.frontmatter.title}>
                 <JobDescription>
-                  {/* <div> */}
                     <JobTitle className="item-1">{node.frontmatter.title}</JobTitle>
                     <JobTitle className="item-2">{node.frontmatter.location}</JobTitle>
-                  {/* </div> */}
-                  <p dangerouslySetInnerHTML={{ __html: node.excerpt }} className="item-3"/>
+                    <JobTitle className="item-3">{node.frontmatter.type}</JobTitle>
+                  <p dangerouslySetInnerHTML={{ __html: node.excerpt }} className="item-4"/>
                 </JobDescription>
                 <JobButton to={node.fields.slug}>Ouvrir</JobButton>
               </JobPost>

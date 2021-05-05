@@ -1,14 +1,14 @@
 ---
 title: 'Jardinier'
-date: '2021-05-03T22:12:03.284Z'
+date: '2021-05-05T22:12:03.284Z'
 dept: 'espace vert'
 location: 'Solliès-Pont, Var'
 published: true
-type: 'Esat'
+type: 'EA'
 ---
 
-L'Esat la Ferme du Gapeau, située à Solliès-Pont, offre deux places pour des ouvriers jardiniers.
-Vous travaillerez au sein d'une équipe dynamique de 6 personnes accompagnée d'un moniteur. Notre Esat intervient sur les communes alentours, chez les particuliers, ainsi que les copropriétés.
+L'Esat la Ferme du Gapeau, située à Solliès-Pont, offre une place pour un ouvrier jardinier au sein de son entreprise adaptée.
+Vous travaillerez au sein d'une équipe dynamique de 3 personnes sous la directive d'un moniteur. Notre entreprise adaptée intervient sur les communes alentours, chez les particuliers, ainsi que les copropriétés.
 
 
 ### Vos tâches
@@ -26,12 +26,16 @@ Vous travaillerez au sein d'une équipe dynamique de 6 personnes accompagnée d'
 - écoute et applique les consignes
 - respectueux de ses collègues et de son lieu de travail
 - motivé et dynamique
-- un minimum autonome (être capable de prendre le bus ou avoir sa voiture)
+- être autonome (avoir le permis B)
 - une petite expérience en espace vert serait un plus.
 
 ### Horaires
 - du lundi au jeudi de 8h à 16h
 - le vendredi de 8h à 13h
+
+### Lieu
+
+- dans tout le département du Var
 
 Vous pouvez nous envoyer votre cv à [l'adresse suivante](secretariat-fermedugapeau@avath.fr).
 

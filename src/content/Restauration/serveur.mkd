@@ -4,6 +4,7 @@ date: '2021-05-04T22:12:03.284Z'
 dept: 'Restauration'
 location: 'Solliès-Pont, Var'
 published: true
+type: 'Esat'
 ---
 
 L'Esat la Ferme du Gapeau, située à Solliès-Pont, offre une place pour un ouvrier service en salle.

@@ -13,7 +13,7 @@ const Container = styled.footer`
 `;
 
 const ExternalLink = styled.a`
-  color: #1F28CF;
+  color: #ff4133;
   text-decoration: none;
 `;
 

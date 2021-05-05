@@ -52,6 +52,7 @@ export const JobDescription = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  border-bottom: 0.1rem solid #f1f1f1;
 
   .item-1 {
     grid-column: 1/2;
@@ -64,8 +65,14 @@ export const JobDescription = styled.div`
   }
 
   .item-3 {
+    grid-column: 5/6;
+    grid-row: 1/2;
+  }
+
+  .item-4 {
     grid-column: 1/5;
     grid-row: 2/3;
+    color: #b3b1b1;
   }
 `;
 

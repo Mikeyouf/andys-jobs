@@ -80,10 +80,10 @@ const Form = () => (
         <label htmlFor="email">Email</label>
         <Input name="email" id="email" type="email" autoComplete="email" />
       </FormField>
-      <FormField>
+      {/* <FormField>
         <label htmlFor="notice-period">Période de préavis</label>
         <Input name="notice-period" id="notice-period" type="number" />
-      </FormField>
+      </FormField> */}
       <FileUpload />
       <FormField>
         <label htmlFor="cover-letter">Lettre de motivation</label>

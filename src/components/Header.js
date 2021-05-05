@@ -14,6 +14,8 @@ const Nav = styled.nav `
   padding: 0 4rem;
   height: 6rem;
   background-color: #ffffff;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  /* box-shadow: 0px 3px 5px rgba(0,0,0,0.3); */
 
   ${media.tablet`
     justify-content: center;
@@ -32,6 +34,17 @@ const NavItems = styled.li`
   text-transform: uppercase;
   padding: 0 1rem;
   margin: 0 1rem;
+
+  a {
+    text-decoration: none;
+    list-style-type: none;
+    color: rgba(0,0,0,0.7);
+    transition: all 0.2s ease-in;
+
+    &:hover {
+      color: #ff4133;
+    }
+  }
 `;
 
 const StyledLogo = styled(Logo)`
@@ -46,9 +59,10 @@ const Header = ({ logo }) => (
       </Link>
     )}
     <NavList>
-      <NavItems>À propos</NavItems>
-      <NavItems>Carrières</NavItems>
-      {/* <NavItems>Pricing</NavItems> */}
+      <NavItems>
+        <Link to={'/about'}>À propos</Link>
+      </NavItems>
+      <NavItems>S'inscrire</NavItems>
     </NavList>
   </Nav>
 );

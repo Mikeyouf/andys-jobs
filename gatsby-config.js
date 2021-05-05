@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: `Andy Jobs`,
-        description: `Site de petites annonces de job pour les Esat et entreprises adaptées`,
+        title: `Andy Job`,
+        description: `Site de petites annonces de job pour les personnes en situation de handicap désirant travailler en Esat ou en entreprises adaptées`,
         author: `Créagency'M`,
     },
     plugins: [
